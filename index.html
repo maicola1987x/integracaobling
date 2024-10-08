@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Power-Up Bling Trello</title>
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
+    <script>
+      // Inicializar o Power-Up do Trello
+      var t = TrelloPowerUp.iframe();
+
+      // Aqui você pode definir suas funcionalidades
+      t.render(function(){
+        // Função que será chamada quando o Power-Up for carregado
+        t.sizeTo('#content').done();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Integração Bling-Trello</h1>
+      <p>Este é o conector do Power-Up.</p>
+    </div>
+  </body>
+</html>
